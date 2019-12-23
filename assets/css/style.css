@@ -1,61 +1,66 @@
 * {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: rgb(99, 98, 98);
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(99, 98, 98);
 }
 
 body {
-    background-image: url(../images/background.png);
+  background-image: url(../images/background.png);
 }
 
-h5.card-title{
-    color: #4aaaa5;
-    font-weight: bold;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 25px;
-    margin: 20px 20px 20px 20px;
-    border-bottom: 2px solid rgb(215, 215, 215);
-    padding-bottom: 20px;
+h5.card-title {
+  color: #4aaaa5;
+  font-weight: bold;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 25px;
+  margin: 20px 20px 20px 20px;
+  border-bottom: 2px solid rgb(215, 215, 215);
+  padding-bottom: 20px;
 }
-
-
-
 
 .card {
-    width: 75%;
-    margin: 75px auto;
-    padding:10px;
+  width: 75%;
+  margin: 75px auto;
+  padding: 10px;
 }
 
+.container.main {
+    width: 75%;
+    background-color: white;
 
-
-
+}
 
 .navbar-brand.name {
-    background-color: #4aaaa5;
-    padding: 20px 20px 20px 20px;
-    margin: 0px 0px 0px 140px;
-    color: white;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-weight: bold;
-
-
+  background-color: #4aaaa5;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 0px 0px 140px;
+  color: white;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
-.navbar.fixed-bottom.navbar-light
+.navbar-brand.footer {
+   margin: auto;
+   padding: 0px;
+   font-size: 10px;
+   color: rgb(216, 214, 214);
+   
+}
 
-
-
-test.footer {
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    text-align: center;
-    color: rgb(216, 214, 214);
-    font-size: 10px;
-    padding: 30px 0px 5px 0px;
+.navbar.fixed-bottom.navbar-dark.footer {
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+  font-size: 10px;
+  padding: 15px 0px 5px 0px;
 }
 
 .portrait {
-    width: 25%;
-    height: 25%;
-    float: left;
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.img {  
+    width: 300px;
+    margin: 25px;
 }
