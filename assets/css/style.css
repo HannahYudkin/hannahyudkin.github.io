@@ -64,3 +64,9 @@ h5.card-title {
     width: 300px;
     margin: 25px;
 }
+
+
+#portfolio-carousel {
+  width: 500px;
+  margin:auto;
+}
