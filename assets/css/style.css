@@ -17,16 +17,15 @@ h5.card-title {
   padding-bottom: 20px;
 }
 
-.card {
-  width: 75%;
-  margin: 75px auto;
-  padding: 10px;
+
+.btn.btn-primary {
+  background-color: #4aaaa5;
+  border: none;
 }
 
-.container.main {
-    width: 75%;
-    background-color: white;
 
+.jumbotron {
+  background-color: white; 
 }
 
 .navbar-brand.name {
@@ -54,15 +53,15 @@ h5.card-title {
   padding: 15px 0px 5px 0px;
 }
 
-.portrait {
-  width: 25%;
-  height: 25%;
-  float: left;
-}
-
 .img {  
     width: 300px;
     margin: 25px;
+}
+
+
+.main .content {
+  padding: 0;
+  margin: auto;
 }
 
 
@@ -77,9 +76,36 @@ h5.card-title {
   margin:50px auto;
 }
 
-#carouselExampleCaptions {
-  width: 500px;
-  margin:auto;
+
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+
+  .img {
+    float: none !important;
+    display: block !important;
+    width: 200px;
+  }
+
+  #mobile-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #portfolio-carousel {
+    width: 300px;
+    margin:50px auto;
+  }
+
+  .navbar-brand.name {
+    margin: 0;
+  }
+
+
 }
 
 
