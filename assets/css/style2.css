@@ -4,6 +4,10 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+h1 {
+    color: #434146;
+    text-align: center;
+}
 main {
     flex: 1 0 auto;
 }
@@ -12,6 +16,9 @@ main {
     margin-left: 20px;
 }
 
+.card {
+    margin: 15px 5px;
+}
 .margin-bottom {
     background-color: #434146;
     height: 10px;
